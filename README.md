@@ -10,6 +10,8 @@ language: "mr"
 > This is a small language model for [Marathi](https://en.wikipedia.org/wiki/Marathi) language with 1M data samples taken from
   [OSCAR page](https://oscar-public.huma-num.fr/shuffled/mr_dedup.txt.gz)
 
+![output](static/output.png)
+
 ## Training params 
 
 - **Dataset** - 1M data samples are used to train this model from OSCAR page(https://oscar-corpus.com/) eventhough data set is of 2.7 GB due to resource constraint to train 
