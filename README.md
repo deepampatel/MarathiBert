@@ -12,6 +12,14 @@ language: "mr"
 
 ![output](static/output.png)
 
+## Usage
+
+```python
+from transformers import AutoTokenizer, AutoModelWithLMHead  
+tokenizer = AutoTokenizer.from_pretrained("deepampatel/roberta-mlm-mr")  
+model = AutoModelWithLMHead.from_pretrained("deepampatel/roberta-mlm-mr")
+```
+
 ## Training params 
 
 - **Dataset** - 1M data samples are used to train this model from OSCAR page(https://oscar-corpus.com/) eventhough data set is of 2.7 GB due to resource constraint to train 
