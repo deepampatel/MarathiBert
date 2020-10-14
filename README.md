@@ -10,15 +10,9 @@ language: "mr"
 > This is a small language model for [Marathi](https://en.wikipedia.org/wiki/Marathi) language with 1M data samples taken from
   [OSCAR page](https://oscar-public.huma-num.fr/shuffled/mr_dedup.txt.gz)
 
+> Model hosted on huggingface model hub https://huggingface.co/deepampatel/roberta-mlm-mr
+
 ![output](static/output.png)
-
-## Usage
-
-```python
-from transformers import AutoTokenizer, AutoModelWithLMHead  
-tokenizer = AutoTokenizer.from_pretrained("deepampatel/roberta-mlm-mr")  
-model = AutoModelWithLMHead.from_pretrained("deepampatel/roberta-mlm-mr")
-```
 
 ## Training params 
 
